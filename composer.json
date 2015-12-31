@@ -1,0 +1,17 @@
+{
+    "name": "air-php/website",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Air\\Website\\": "src/app"
+        }
+    },
+    "require": {
+        "air-php/http": "~0.1",
+        "air-php/fastroute": "~0.1",
+        "air-php/dispatcher": "~0.1",
+        "air-php/application": "~0.1",
+        "air-php/view-mustache": "~0.1",
+        "php-di/php-di": "~5.0"
+    }
+}

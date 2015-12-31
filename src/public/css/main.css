@@ -1,0 +1,172 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  font-size: 1.1em; }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  line-height: 1.5em; }
+
+h1, h2, h3, h4 {
+  color: #26394d;
+  line-height: 1.4em;
+  margin-bottom: 0.3em; }
+
+h1 {
+  font-size: 2em; }
+
+h2 {
+  font-size: 1.7em; }
+
+h3 {
+  font-size: 1.4em; }
+
+h4 {
+  font-size: 1.1em; }
+
+p {
+  color: #4d6680;
+  margin-bottom: 2em; }
+
+ul {
+  list-style: disc;
+  margin-bottom: 2em; }
+  ul li {
+    margin-left: 4em; }
+
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+.header {
+  padding: 2em;
+  background-color: #e1edfa; }
+  .header__logo {
+    text-align: center; }
+
+.headline {
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+  text-align: center; }
+
+.content, .header__content {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin: auto; }
+  .content::after, .header__content::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.download {
+  text-align: center; }
+  .download__button {
+    font-size: 1.2em;
+    background-color: #eee;
+    border: 0;
+    padding: 1em;
+    display: inline-block;
+    border-radius: 3px;
+    color: #666666;
+    text-decoration: none;
+    margin-bottom: 2.5rem;
+    margin-left: 0.5em;
+    margin-right: 0.5em; }
+    .download__button .fa {
+      margin-right: 0.3em; }
+    .download__button:hover {
+      background-color: #f3f3f3; }
+
+.faqs {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid #EEEEEE;
+  padding-top: 3.5em; }
+  .faqs::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .faqs__question {
+    margin-bottom: 2.5em;
+    float: left;
+    display: block;
+    margin-right: 4.72458%;
+    width: 47.63771%; }
+    .faqs__question:last-child {
+      margin-right: 0; }
+    .faqs__question-row {
+      display: block; }
+      .faqs__question-row::after {
+        clear: both;
+        content: "";
+        display: table; }
+    @media screen and (max-width: 768px) {
+      .faqs__question {
+        float: left;
+        display: block;
+        margin-right: 7.25833%;
+        width: 100%; }
+        .faqs__question:last-child {
+          margin-right: 0; } }
+    @media screen and (max-width: 480px) {
+      .faqs__question {
+        float: left;
+        display: block;
+        margin-right: 15.65278%;
+        width: 100%; }
+        .faqs__question:last-child {
+          margin-right: 0; } }
+
+/*# sourceMappingURL=main.css.map */

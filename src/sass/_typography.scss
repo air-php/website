@@ -1,0 +1,45 @@
+html {
+     font-size: 1.1em;
+ }
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+h1, h2, h3, h4 {
+    color: #26394d;
+    line-height: 1.4em;
+    margin-bottom: 0.3em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.7em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+p {
+    color: #4d6680;
+    margin-bottom: 2em;
+}
+
+ul {
+    list-style: disc;
+    margin-bottom: 2em;
+
+    li {
+        margin-left: 4em;
+    }
+}

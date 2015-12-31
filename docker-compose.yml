@@ -1,0 +1,14 @@
+php:
+  image: php:7-fpm
+  volumes:
+      - ./:/var/www/air
+
+web:
+  image: nginx
+  volumes:
+      - ./:/var/www/air
+      - ./config/nginx:/etc/nginx/conf.d
+  ports:
+      - "80:80"
+  links:
+      - php
