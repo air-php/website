@@ -78,7 +78,8 @@ ul {
   list-style: disc;
   margin-bottom: 2em; }
   ul li {
-    margin-left: 4em; }
+    margin-left: 4em;
+    color: #4d6680; }
 
 html {
   box-sizing: border-box; }
